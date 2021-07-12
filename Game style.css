@@ -1,0 +1,58 @@
+#game
+{
+	width: 1200;
+	height: 550;
+	border: 30px groove gray;
+	overflow: hidden;
+	background-color: #80ffb8; 
+}
+body
+{
+	background-color: black;
+}
+#block
+{
+	width: 100px;
+	height: 600px;
+	background-image: linear-gradient(  #00ff04 , #15c317 , #028f04  );
+	animation-name: block;
+	animation-duration: 5s;
+	position: relative;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	left: 1100px;
+}
+@keyframes block
+{
+	from 
+	{ left: 1200px; }
+	to 
+	{ left: -100px; }
+}
+#hole
+{
+	width: 100px;
+	height: 250px;
+	background-color: #80ffb8;
+	animation-name: block;
+	animation-duration: 5s;
+	position: relative;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	left: 1100px;
+	top: -500px;
+}
+#chrachter
+{
+	width: 150px;
+	height: 95px;
+	background-image: url("Parrot 3.png");
+	background-size: 100%;
+	position: absolute;
+	top: 150px;
+	left: 150px;
+}
+
+
+
+
